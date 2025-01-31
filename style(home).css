@@ -1,5 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.rubik-uniquifier {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+body {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+
+.logo {
+  width: 130px;
+  height: 140px;
+  margin-left: 20px;
+}
+
+.link{
+  display: flex;
+  margin-left: 220px;
+}
+.link1,
+.link2,
+.link3,
+.link4,
+.button-cart {
+  background-color: transparent;
+  color: black;
+  margin: 70px 20px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.button-cart{
+    font-size: 45px;
+    border: 2px solid #FFFFFF;
+    margin: 60px;
+}
+
+
+.log {
+  display: flex;
+}
+.đn,
+.đk {
+  width: 130px;
+  height: 40px;
+  margin: 60px 16px;
+  border-radius: 28px;
 }
