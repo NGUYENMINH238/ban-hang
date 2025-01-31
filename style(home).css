@@ -10,8 +10,9 @@
   font-style: normal;
 }
 body {
+  font-family: "Rubik", sans-serif;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #F4F1E8;;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +20,7 @@ body {
 header {
   width: 100%;
   height: 120px;
-  background-color: rgb(255, 255, 255);
+  background-color: #F4F1E8;
   display: flex;
 }
 
@@ -27,6 +28,7 @@ header {
   width: 130px;
   height: 140px;
   margin-left: 20px;
+  background-color: #F4F1E8;
 }
 
 .link{
